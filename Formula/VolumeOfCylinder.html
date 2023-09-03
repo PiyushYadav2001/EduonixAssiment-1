@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+            <h2>Volume of Cylinder</h2>
+            <label for="Radius">Radius</label>
+            <br>
+            <input type="number" placeholder="Enter Radius " id="Radius" required min="0">
+            <br>
+            <label for="Height">Height</label>
+            <br>
+          <input type="number" placeholder="Enter Height " id="Height" required min="0">
+            <br> 
+            <p>Volume Of Cylinder : <span id="Answer"></span></p>
+          <!-- <input type="reset">   -->
+          <a href="./Area.html"><button class="bv">Area of Circle</button></a>
+         <a href="./SurfaceAreaOfCylinder.html"> <button class="bv">Surface Area Of Cylinder</button></a>
+          <button class="bv"onclick="VolumeOfCylinder()">Submit</button>
+          <a href="./index.html"><button class="bv">back</button></a>
+          <button class="bv" onclick="reset()">Rest</button>
+        
+    </div>
+    <script src="Formula.js"></script> 
+</body>
+</html>

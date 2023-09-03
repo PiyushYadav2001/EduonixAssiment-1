@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Simple Interset Calculator</title>
+</head>
+<body>
+      
+      <div class="Si">
+        <h2>Simple Interset Calculator</h2>
+        <label for="Principal">Prinicipal</label>
+        <br>
+        <input type="number" placeholder="Enter Principal Amount" id="Principal" required min="0">
+        <br>
+        <label for="Rate">Rate  (%)</label>
+        <br>
+        <input type="number" placeholder="Enter Rate Amount" id="Rate" required  min="0">
+        <br>
+        <label for="Time">Time</label>
+        <br>
+        <input type="number" placeholder="Enter Time Amount" id="Time"  required  min="0">
+        <br>
+        <button onclick="answer()">Calculate</button>
+        <p>Principal Amount: <span id="output_1"></span></p>
+        <p>Interset Amount: <span id="output_2"></span></p>
+        <p>Total Amount: <span id="output_3"></span></p>
+        <button type="reset" onclick="reset()" id="rest">Reset</button>
+      </div>
+    <script src="SimpleInterest.js">  
+</script>  
+</body>
+</html>
